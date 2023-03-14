@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\ChessGraphics">
+      <UniqueIdentifier>{8980b001-55b5-4e82-9c84-883a4141397f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChessBoard">
+      <UniqueIdentifier>{648a60a3-d604-461f-8ea2-5992e9efa778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ChessConsole">
+      <UniqueIdentifier>{088a134c-59b0-4514-86ea-60ec0c143b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Pieces">
+      <UniqueIdentifier>{a37851ee-4287-438e-8178-f6e9755f0a48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces">
+      <UniqueIdentifier>{7005d285-c1d6-45c9-84a4-89fdb40cb371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\King">
+      <UniqueIdentifier>{56912e5a-d9b1-4eb1-822f-6951fb9e1319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\Queen">
+      <UniqueIdentifier>{aafeae74-6833-4671-a7e1-80eb4f4bf97b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\Bishop">
+      <UniqueIdentifier>{f18cdcba-9928-4786-b4b9-b81bc97a2365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\Knight">
+      <UniqueIdentifier>{ea6e8d8b-80de-4258-8189-1ba45836511e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\Rock">
+      <UniqueIdentifier>{c33a08ea-0155-452e-84ed-d136e172d73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Pieces\Pawn">
+      <UniqueIdentifier>{0a48ed9f-6ea2-4592-9384-6eb120d60919}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChessConsole.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessBoard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Pieces.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessGraphics.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="King.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Queen.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Bishop.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+    <ClInclude Include="Pawn.h">
+      <Filter>헤더 파일\Pieces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGraphics.Render.cpp">
+      <Filter>소스 파일\ChessGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGraphics.ChessGraphics.cpp">
+      <Filter>소스 파일\ChessGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessGraphics.ToChar.cpp">
+      <Filter>소스 파일\ChessGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessConsole.Run.cpp">
+      <Filter>소스 파일\ChessConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.GetPiece.cpp">
+      <Filter>소스 파일\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.ChessBoard.cpp">
+      <Filter>소스 파일\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.Pieces.cpp">
+      <Filter>소스 파일\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="King.King.cpp">
+      <Filter>소스 파일\Pieces\King</Filter>
+    </ClCompile>
+    <ClCompile Include="King.Move.cpp">
+      <Filter>소스 파일\Pieces\King</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.Move.cpp">
+      <Filter>소스 파일\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.Queen.cpp">
+      <Filter>소스 파일\Pieces\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="Queen.Move.cpp">
+      <Filter>소스 파일\Pieces\Queen</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.Bishop.cpp">
+      <Filter>소스 파일\Pieces\Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="Bishop.Move.cpp">
+      <Filter>소스 파일\Pieces\Bishop</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.Knight.cpp">
+      <Filter>소스 파일\Pieces\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.Move.cpp">
+      <Filter>소스 파일\Pieces\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.Rock.cpp">
+      <Filter>소스 파일\Pieces\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.Move.cpp">
+      <Filter>소스 파일\Pieces\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.Pawn.cpp">
+      <Filter>소스 파일\Pieces\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.Move.cpp">
+      <Filter>소스 파일\Pieces\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="Pieces.Attack.cpp">
+      <Filter>소스 파일\Pieces</Filter>
+    </ClCompile>
+    <ClCompile Include="Pawn.Attack.cpp">
+      <Filter>소스 파일\Pieces\Pawn</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.MoveTo.cpp">
+      <Filter>소스 파일\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessConsole.ChessConsole.cpp">
+      <Filter>소스 파일\ChessConsole</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessBoard.~ChessBoard.cpp">
+      <Filter>소스 파일\ChessBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessConsole.ExecuteCommand.cpp">
+      <Filter>소스 파일\ChessConsole</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
